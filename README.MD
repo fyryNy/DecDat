@@ -2,9 +2,13 @@
 
 Originally built by Gottfried: [original release post](https://forum.worldofplayers.de/forum/threads/1151032-Tool-DecDat)
 
+
 While working on [Phoenix](https://phoenixthegame.com/) I had to decompile compiled scripts from an older demo so it could be passed on to people doing alpha version research. To do this, I changed the source code of DecDat to work on the old `.DAT` file format.
 
 When I was at it I fixed the string substitution feature and int to instance substitution.
+
+## Running DecDat
+Use this [Java JRE](https://adoptium.net/temurin/releases) to run the program.
 
 ## String substitution
 
